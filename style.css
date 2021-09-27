@@ -74,6 +74,8 @@ li::after {
   border: 0.5em solid var(--color-card-border);
   border-radius: 0.875em;
   background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-violet {
@@ -120,6 +122,10 @@ li::after {
 
 .price span {
   font-weight: bold;
+}
+
+.features {
+  flex: 1;
 }
 
 .btn {
